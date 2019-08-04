@@ -272,6 +272,9 @@ p {
 h1 {
   font-size: 3rem;
 }
+h2 {
+  font-size: 2.5rem;
+}
 header {
   width: 500px;
   height: 50px;
@@ -292,15 +295,22 @@ header nav a {
   border-bottom: 1px solid white;
   padding: 2%;
 }
+.about {
+  background-color: #EAE7D6;
+  background-image: url(../images/manuelpic.png);
+  background-repeat: no-repeat;
+  background-position: 95% -39%;
+}
 body {
   background-color: #EAE7D6;
 }
 h1 {
   font-family: cursive;
 }
-.about {
-  background-color: #EAE7D6;
-  background-image: url(../images/manuelpic.png);
+.home {
+  background-color: black;
+  background-image: url(../images/manuelsSONG.jpg);
   background-repeat: no-repeat;
   background-position: 95% -39%;
+  color: white;
 }
