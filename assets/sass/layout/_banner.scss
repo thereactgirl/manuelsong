@@ -15,8 +15,8 @@
 		@include vendor('justify-content', 'center');
 		background-attachment: fixed;
 		background-image: url('../../../imgs/manuelsSONG.jpg');
-		background-position: bottom left;
-		background-size: cover;
+		background-position: center;
+		background-size: contain;
 		border-top: solid 10px _palette(accent1, bg);
 		min-height: 75vh;
 		position: relative;
@@ -86,7 +86,7 @@
 		}
 
 		@include breakpoint('<=xlarge') {
-			min-height: 0;
+			// min-height: 0p;
 		}
 
 		@include breakpoint('<=large') {
