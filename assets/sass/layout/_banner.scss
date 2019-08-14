@@ -86,7 +86,7 @@
 		}
 
 		@include breakpoint('<=xlarge') {
-			// min-height: 0p;
+			min-height: 0p;
 		}
 
 		@include breakpoint('<=large') {
